@@ -956,7 +956,7 @@ body.dark-theme {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) and (min-width: 341px) {
   .container {
     margin-inline:1rem ;
   }
@@ -992,7 +992,7 @@ body.dark-theme {
   .projects__subtitle,
   .projects__title,
   .projects__button {
-    margin-left: 8.5rem;
+    margin-left: 3.5rem;
   }
 }
 
